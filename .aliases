@@ -92,6 +92,10 @@ alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 alias g="git"
 alias v="vim"
 
+alias apachestart="$CATALINA_HOME/bin/startup.sh"
+alias apachestop="$CATALINA_HOME/bin/shutdown.sh"
+
+
 # File size
 alias fs="stat -f \"%z bytes\""
 
