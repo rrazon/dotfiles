@@ -94,6 +94,7 @@ alias v="vim"
 
 alias tomcatstart="$CATALINA_HOME/bin/startup.sh"
 alias tomcatstop="$CATALINA_HOME/bin/shutdown.sh"
+alias tomcatapps="open '$CATALINA_HOME/webapps'"
 
 
 # File size
